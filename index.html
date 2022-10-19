@@ -20,6 +20,82 @@
       <label id="number-label" for="number">Age(Optional): </label>
       <input type="number" id="number" placeholder="Enter your age here..." min="1" max="120">
       <br><br>
+      <!-- Current role dropdown list one -->
+      <label for="dropdown">Which option best describes your current role?</label>
+      <select id="dropdown">
+        <option value="sel_cur_role" selected disabled>Select Current Role</option>
+        <option value="student">Student</option>
+        <option value="job">Full Time Job</option>
+        <option value="Learner">Full Time Learner</option>
+        <option value="no">Prefer Not To Say</option>
+        <option value="other">Other</option>
+      </select> 
+      <br><br>
+      <!-- Radio buttons -->
+      <section>
+        <legend>Would you recommend freeCodeCamp to a friend?</legend>
+        <br>
+        <input type="radio" name="recomendation" id="definitely" value="definitely" checked>
+        <label for="definitely">Definitely</label><br>
+        <input type="radio" name="recomendation" id="may-be" value="may-be">
+        <label for="may-be">Maybe</label><br>
+        <input type="radio" name="recomendation" id="not-sure" value="not-sure">
+        <label for="not-sure">Not Sure</label><br>
+      </section>
+      <br>
+      <!-- Favourite feature Dropdown list two -->
+      <section>
+        <label for="fav_feature">
+          What is your favorite feature of freeCodeCamp?
+        </label>
+        <select id="fav_feature">
+          <option value="" selected disabled>Select an Option</option>
+          <option value="challenges">challenges</option>
+          <option value="projects">Projects</option>
+          <option value="community">Community</option>
+          <option value="open source">Open Source</option>
+        </select>
+      </section>
+      <br>
+      <!-- Check boxes -->
+      <section>
+        <legend>
+          What would you like to see improved? (Check all that apply)
+        </legend><br>
+        <input type="checkbox" value="front-end" id="front-end">
+        <label for="front-end">Front-end Projects</label><br>
+        <input type="checkbox" value="back-end" id="back-end">
+        <label for="back-end">Back-end Projects</label><br>
+        <input type="checkbox" value="data-visualizaion" id="data-visualizaion">
+        <label for="data-visualizaion">Data Visualizaion</label><br>
+        <input type="checkbox" value="challenges" id="challenges">
+        <label for="challenges">challenges</label><br>
+        <input type="checkbox" value="open-source" id="open-source" checked>
+        <label for="open-source">Open Source Community</label><br>
+        <input type="checkbox" value="gitter_help" id="gitter_help">
+        <label for="gitter_help">Gitter Help Room</label><br>
+        <input type="checkbox" value="videos" id="videos">
+        <label for="videos">Videos</label><br>
+        <input type="checkbox" value="city-meetups" id="city-meetups">
+        <label for="city-meetups">City Meetups</label><br>
+        <input type="checkbox" value="wiki" id="wiki">
+        <label for="wiki">Wiki</label><br>
+        <input type="checkbox" value="forum" id="forum">
+        <label for="forum">Forum</label><br>
+        <input type="checkbox" value="add-courses" id="add-courses">
+        <label for="add-courses">Additional Courses</label><br>
+      </section>
+      <br>
+      <section>
+        <label for="add-comments">Any comments or suggestions?</label><br>
+        <textarea name="add-comments" id="add-comments" placeholder="Enter your comments here..."></textarea>
+      </section>
+      <br>
+      <section>
+        <button id="submit" type="submit">Submit</button>
+      </section>
+
+    </form>
     
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
