@@ -1,0 +1,28 @@
+body{
+  text-align: center;
+  background-color: #3c348c;
+  color: white;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#survey-form{
+  padding: 30px;
+  margin: auto;
+  text-align: left;
+  max-width: 60%;
+  height: auto;
+  background-color: #302c44;
+  border-radius: 10px;
+}
+input[type=text],input[type=email],input[type=number], select, textarea, button{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  /* display: inline-block; */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 15px;
+}
+button{
+  background-color: #38ac64;
+}
